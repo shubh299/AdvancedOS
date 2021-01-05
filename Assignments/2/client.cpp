@@ -694,7 +694,7 @@ string download(vector<char*> command,string recv){
             continue;
         }
         //cout<<peer_fd<<"Success"<<endl;
-        string to_send="get_file part0";
+        string to_send="get_file "+fileName;
         write(peer_fd,to_send.c_str(),to_send.length());
         string recv;
         char buffer[1024]={0};
