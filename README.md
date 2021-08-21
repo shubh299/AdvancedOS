@@ -1,4 +1,5 @@
 # AdvancedOS
+Execution environment is Linux. All the libraries used are present in any Linux environment.
 This repo includes Assignements of Advanced Operation System course and some practice codes.\\
 Assignments Folder contains the following assignments -
 * Command Line File Explorer
